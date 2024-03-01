@@ -8,7 +8,7 @@ describe('is_prime',()=>{
         expect(response.type).toEqual('application/json')
         expect(response.body.result).toBe(true)
     })
-    test('true_when_x_is_36',async ()=>{
+    test('false_when_x_is_36',async ()=>{
         const response = await request(app).get("/is_prime/36").send()
         console.log(response.json)
         expect(response.status).toBe(200)

@@ -21,10 +21,6 @@ app.get('/is_prime/:num', (req, res) => {
 });
 app.get('/test', (req, res) => {res.status(200).send('Hello World!').end()})
 
-// Start the server
-/*const PORT = 3000;
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`);
-});
-*/
+
+
 module.exports = app;
