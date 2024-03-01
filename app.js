@@ -19,8 +19,6 @@ app.get('/is_prime/:num', (req, res) => {
   res.json(result);
   res.end()
 });
-app.get('/test', (req, res) => {res.status(200).send('Hello World!').end()})
-
 
 
 module.exports = app;
