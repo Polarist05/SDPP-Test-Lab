@@ -4,6 +4,10 @@
 * npm install express
 * npm install jest
 
+หรือ
+
+* npm install
+
 # เขียน Script
 
 * app.js
